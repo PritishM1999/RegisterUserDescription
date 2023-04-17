@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LoginEvent from './components/Login';
 import RegisterEvent from './components/Register';
 import HomeEvent from './components/home';
-import JokesApp from './components/Jokes_App/jokesApp'
 
 
 function App() {
@@ -13,7 +12,6 @@ function App() {
         <Route path="/" element={<LoginEvent />} />
         <Route path="/register" element={<RegisterEvent />} />
         <Route path="/home" element={<HomeEvent />} />
-        <Route path="/jokes" element={<JokesApp />} />
       </Routes>
     </Router>
   );
