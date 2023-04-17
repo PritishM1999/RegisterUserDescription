@@ -1,0 +1,25 @@
+.todo-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+  }
+  
+.todo-card {
+    background-color: indianred;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    padding: 10px;
+}
+  
+.todo-card h3 {
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+  
+.todo-card p {
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+  
