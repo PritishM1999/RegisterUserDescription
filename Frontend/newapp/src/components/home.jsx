@@ -22,7 +22,7 @@ const HomeEvent = () => {
   return (
     <div>
       <h2>Home Page</h2>
-
+      <p>Your data Sucessfully stored in the database.</p>
       {user && (
         <div>
           <h3>Name: {user.username}</h3>
